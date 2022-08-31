@@ -50,8 +50,8 @@ header {
 	top: 0px;
 	width: 100%;
 	height: 100px;
-	background: #333;	/*背景色（古いブラウザ用）*/
-	background: rgba(28,82,5,0.8);	/*背景色。28,82,5はRGBでの色指定。0.8は色が80%ついた状態の事。*/
+	background: #ffb6c1;	/*背景色（古いブラウザ用）*/
+	background: rgba(255,182,193,0.8)*背景色。28,82,5はRGBでの色指定。0.8は色が80%ついた状態の事。*/
 }
 /*ロゴ画像*/
 header #logo img {
