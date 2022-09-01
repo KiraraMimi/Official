@@ -8,6 +8,7 @@
 <meta name="description" content="ここにサイト説明を入れます">
 <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/print.css" media="print">
 <script src="js/openclose.js"></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -20,14 +21,10 @@
 .menu5 a {background-position: -10px -490px;}
 </style>
 <![endif]-->
-<!--[if lt IE 10]>
-<style>
-.slide0,.slide1,.slide2,.slide3 {background: url(images/1.jpg) no-repeat center center;}
-</style>
-<![endif]-->
 </head>
 
-<body class="home">
+
+<body class="contact">
 
 <div id="container">
 
@@ -39,11 +36,11 @@
 	<!--PC用（801px以上端末）メニュー-->
 	<nav id="menubar">
 	<ul>
-	<li class="menuimg menu1 current"><a href="index.html"><span>Home</span></a></li>
+	<li class="menuimg menu1"><a href="index.html"><span>Home</span></a></li>
 	<li class="menuimg menu2"><a href="company.html"><span>Company</span></a></li>
 	<li class="menuimg menu3"><a href="works.html"><span>Works</span></a></li>
 	<li class="menuimg menu4"><a href="link.html"><span>Links</span></a></li>
-	<li class="menuimg menu5"><a href="contact.html"><span>Contact</span></a></li>
+	<li class="menuimg menu5 current"><a href="contact.html"><span>Contact</span></a></li>
 	</ul>
 	</nav>
 	<ul class="icon">
@@ -65,11 +62,11 @@
 	<div id="menubar-s">
 	<nav>
 	<ul>
-	<li class="menuimg menu1 current"><a href="index.html"><span>Home</span></a></li>
+	<li class="menuimg menu1"><a href="index.html"><span>Home</span></a></li>
 	<li class="menuimg menu2"><a href="company.html"><span>Company</span></a></li>
 	<li class="menuimg menu3"><a href="works.html"><span>Works</span></a></li>
 	<li class="menuimg menu4"><a href="link.html"><span>Links</span></a></li>
-	<li class="menuimg menu5"><a href="contact.html"><span>Contact</span></a></li>
+	<li class="menuimg menu5 current"><a href="contact.html"><span>Contact</span></a></li>
 	</ul>
 	</nav>
 	<ul class="icon">
@@ -89,38 +86,38 @@
 
 <div id="main">
 
-<span id="pagetop"></span>
+<section id="pagetop">
 
-<section id="new">
+<p class="check">当ページ（contact.html）はフォームの見本ページです。実際の自動フォームには使いませんのでご注意下さい。</p>
 
-<h2>What's New</h2>
-<dl>
-<dt>2019/11/09</dt>
-<dd>幅800px以下の端末でトップページの「What's New」を見た場合にスクロールできなかった問題点を修正。利用中のお客様は、style.cssの800px以下に#new dl {overflow: auto;}を追加して下さい。<span class="newicon">NEW</span></dd>
-<dt>2019/08/27</dt>
-<dd>印刷した際に１ページ目しか印刷できない問題を修正しました。</dd>
-<dt>2019/08/17</dt>
-<dd>ページ右下の「↑」アイコンをクリックしても上部に戻らない不具合を修正しました。</dd>
-<dt>2019/07/19</dt>
-<dd>tp_biz52公開。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-</dl>
+<h2 class="title">CONTACT<span>お問い合わせ</span></h2>
+
+<p>当ページと同じ３項目のお問い合わせフォーム（自動フォーム試用版）を簡単に使えるようにセットしています。</p>
+<p><strong class="color1">■自動フォームを使う場合（※編集に入る前にご確認下さい）</strong><br>
+あなたのメールアドレス設定と、簡単な編集だけで使えます。<a href="http://template-party.com/file/formgen_manual_set2.html" target="_blank">こちらのマニュアルをご覧下さい。</a></p>
+<p><strong class="color1">■自動フォームを使わない場合</strong><br>
+テンプレートに梱包されている「form.html」「confirm.html」「finish.html」の3枚のファイルを削除して下さい。</p>
+
+<table class="ta1">
+<tr>
+<th>お名前※</th>
+<td><input type="text" name="お名前" size="30" class="ws"></td>
+</tr>
+<tr>
+<th>メールアドレス※</th>
+<td><input type="text" name="メールアドレス" size="30" class="ws"></td>
+</tr>
+<tr>
+<th>お問い合わせ詳細※</th>
+<td><textarea name="お問い合わせ詳細" cols="30" rows="10" class="wl"></textarea></td>
+</tr>
+</table>
+
+<p class="c">
+<input type="submit" value="内容を確認する" class="btn">
+</p>
 
 </section>
-<!--/#new-->
 
 <footer>
 <small>Copyright&copy; <a href="index.html">SAMPLE SITE</a> All Rights Reserved.</small>
@@ -132,14 +129,6 @@
 
 </div>
 <!--/#contents-->
-
-<!--スライドショー-->
-<aside id="mainimg">
-<div class="slide0">slide0</div>
-<div class="slide1">slide1</div>
-<div class="slide2">slide2</div>
-<div class="slide3">slide3</div>
-</aside>
 
 </div>
 <!--/#container-->
