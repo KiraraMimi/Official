@@ -60,13 +60,13 @@ a:hover {
 }
 /*link.htmlの背景画像指定*/
 .link #container {
-	background: url(../images/yoruheya.png) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
-	background: url(../images/yoruheya.png) no-repeat center center / cover;	/*背景画像*/
+	background: url(../images/3.jpg) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
+	background: url(../images/3.jpg) no-repeat center center / cover;	/*背景画像*/
 }
 /*contact.htmlにも背景画像を指定したい場合は、以下にスタイルを追加して下さい。*/
 .contact #container {
-	background: url(../images/yoruheya.png) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
-	background: url(../images/yoruheya.png) no-repeat center center / cover;	/*背景画像*/
+	background: url(../images/1.jpg) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
+	background: url(../images/1.jpg) no-repeat center center / cover;	/*背景画像*/
 }
 
 /*contentsブロック
