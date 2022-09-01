@@ -36,7 +36,7 @@ a {
 	transition: 0.4s;	/*マウスオン時の移り変わるまでの時間設定。0.4秒。*/
 }
 a:hover {
-	color: #fae81e;			/*マウスオン時の文字色*/
+	color: #E14159;			/*マウスオン時の文字色*/
 	text-decoration: none;	/*マウスオン時に下線を消す設定。残したいならこの１行削除。*/
 }
 
@@ -136,7 +136,7 @@ header.pc p {
 }
 /*マウスオン時*/
 header:hover #menubar li a:hover {
-	background-color: #fae81e;	/*背景色*/
+	background-color: #E14159;	/*背景色*/
 	color: #fff;				/*文字色*/
 }
 /*現在表示中メニュー（current）*/
@@ -236,11 +236,11 @@ header .icon img {
 	margin-bottom: 20px;	/*見出しの下に空けるスペース*/
 	font-size: 24px;		/*文字サイズ*/
 	letter-spacing: 0.2em;	/*文字間隔を少し広くとる設定*/
-	color: #fae81e;			/*文字色*/
+	color: #E14159;			/*文字色*/
 }
 /*h2タグの１文字目への指定*/
 #main h2::first-letter {
-	border-left: 3px solid #fae81e;	/*左の線の幅、線種、色*/
+	border-left: 3px solid #E14159;	/*左の線の幅、線種、色*/
 	padding-left: 20px;				/*線と文字の間の余白*/
 }
 /*h2タグにclass="title"をつけたタイプ。大見出し。*/
@@ -248,7 +248,7 @@ header .icon img {
 	font-family: 'Poiret One';	/*冒頭のgoogle fontsの指定*/
 	font-size: 60px;			/*文字サイズ*/
 	margin-bottom: 40px;		/*見出しの下に空けるスペース*/
-	border-bottom: 1px solid #fae81e;	/*下線の幅、線種、色*/
+	border-bottom: 1px solid #E14159;	/*下線の幅、線種、色*/
 }
 #main h2.title::first-letter {
 	border-left: none;
@@ -454,7 +454,7 @@ p.check a {color: #fff;}
 	line-height: 40px;	/*ボタンの高さ*/
 	bottom: 20px;		/*ウィンドウの下から20pxの場所に配置*/
 	right: 3%;			/*ウィンドウの右から3%の場所に配置*/
-	background: #fae81e;	/*背景色*/
+	background: #E14159;	/*背景色*/
 	color: #000;		/*文字色*/
 	border-radius: 50%;	/*円形にする指定*/
 }
@@ -505,7 +505,7 @@ ol {
 .mb15,.mb1em {margin-bottom: 15px !important;}
 .mb30 {margin-bottom: 30px !important;}
 .clear {clear: both;}
-.color1, .color1 a {color: #fae81e !important;}
+.color1, .color1 a {color: #E14159 !important;}
 .pr {font-size: 10px;}
 .wl {width: 96%;}
 .ws {width: 50%;}
