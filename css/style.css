@@ -58,6 +58,11 @@ a:hover {
 	background: url(../images/2.jpg) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
 	background: url(../images/2.jpg) no-repeat center center / cover;	/*背景画像*/
 }
+/*goods.htmlの背景画像指定*/
+.goods #container {
+	background: url(../images/tatie.png) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
+	background: url(../images/tatie.png) no-repeat center center / cover;	/*背景画像*/
+}
 /*link.htmlの背景画像指定*/
 .link #container {
 	background: url(../images/3.jpg) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
