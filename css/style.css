@@ -50,8 +50,8 @@ a:hover {
 }
 /*company.htmlの背景画像指定*/
 .company #container {
-	background: url(../images/yoruheya.png) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
-	background: url(../images/yoruheya.png) no-repeat center center / cover;	/*背景画像*/
+	background: url(../images/yoruheya.jpg) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
+	background: url(../images/yoruheya.jpg) no-repeat center center / cover;	/*背景画像*/
 }
 /*works.htmlの背景画像指定*/
 .works #container {
@@ -60,8 +60,8 @@ a:hover {
 }
 /*goods.htmlの背景画像指定*/
 .goods #container {
-	background: url(../images/tatie.png) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
-	background: url(../images/tatie.png) no-repeat center center / cover;	/*背景画像*/
+	background: url(../images/goods.jpg) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
+	background: url(../images/goods.jpg) no-repeat center center / cover;	/*背景画像*/
 }
 /*link.htmlの背景画像指定*/
 .link #container {
