@@ -329,11 +329,11 @@ header .icon img {
 }
 /*figure画像*/
 .list a figure {
-	opacity: 0.6;	/*リンクを指定した際は60%だけ色を出す。*/
+	opacity: 1;	/*リンクを指定した際は100%だけ色を出す。*/
 }
 /*マウスオン時のfigure画像*/
 .list a:hover figure {
-	opacity: 1;		/*リンクを指定した際のマウスオン時に色を100%出す。*/
+	opacity: 0.5;		/*リンクを指定した際のマウスオン時に色を50%出す。*/
 }
 /*h4タグ*/
 .list h4 {
