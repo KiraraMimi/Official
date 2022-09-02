@@ -147,7 +147,7 @@ header:hover #menubar li a:hover {
 }
 /*現在表示中メニュー（current）*/
 #menubar li.current a {
-	background-color: rgba(250,232,30,0.2);	/*背景色。250,232,30は、リンクカラーをrgb値にしたもの。0.2は色が20%出た状態。*/
+	background-color: rgba(250,232,30,0.8);	/*背景色。250,232,30は、リンクカラーをrgb値にしたもの。0.2は色が20%出た状態。*/
 }
 /*テキスト*/
 #menubar li a span {
