@@ -54,8 +54,8 @@ a:hover {
 	background: url(../images/yoruheya.jpg) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
 	background: url(../images/yoruheya.jpg) no-repeat center center / cover;	/*背景画像*/
 }
-/*works.htmlの背景画像指定*/
-.works #container {
+/*music.htmlの背景画像指定*/
+.music #container {
 	background: url(../images/2.jpg) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
 	background: url(../images/2.jpg) no-repeat center center / cover;	/*背景画像*/
 }
