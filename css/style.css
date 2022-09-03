@@ -48,8 +48,9 @@ a:hover {
 	width: 100%;
 	height: 100%;
 }
-/*company.htmlの背景画像指定*/
-.company #container {
+/*profile.htmlの背景画像指定*/
+.profile
+#container {
 	background: url(../images/yoruheya.jpg) no-repeat center center;	/*背景画像（※IE8以下の古いブラウザ用）*/
 	background: url(../images/yoruheya.jpg) no-repeat center center / cover;	/*背景画像*/
 }
