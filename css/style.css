@@ -607,6 +607,11 @@ header.sh .logo {
 .menu5 a {
 	background-position: 20px -240px;
 }
+/*menu5*/
+.menu5 a {
+	background-position: 20px -300px;
+}
+
 /*PC用メニューを非表示にする*/
 #menubar {display: none;}
 
